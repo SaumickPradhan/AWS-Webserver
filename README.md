@@ -2,6 +2,8 @@
 
 This project is a Flask web application deployed on an AWS EC2 instance. The application includes user authentication, user information retrieval, and updating user information.
 
+Deployed on EC2 Instance: http://ec2-3-128-171-197.us-east-2.compute.amazonaws.com/
+
 ## Prerequisites
 
 Before running the application, ensure you have the following installed:
