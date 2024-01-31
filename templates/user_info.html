@@ -1,0 +1,20 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Info</title>
+</head>
+<body>
+    <h1>User Info</h1>
+    <p>First Name: {{ user_info[0] }}</p>
+    <p>Last Name: {{ user_info[1] }}</p>
+    <p>Email: {{ user_info[2] }}</p>
+    <a href="{{ url_for('index') }}">Sign Out and Go Back to Login</a>
+    <p>Word Count: {{words_count}}</p>
+<form method="get" action="{{ url_for('download_limerick') }}">
+        <input type="submit" value="Download Limerick.txt">
+    </form>
+</body>
+
+</html>
